@@ -19,6 +19,7 @@ Model summery of Food-101 dataset after applying all packages and formulas:
 # Datasets Used  
 The dataset used is Food 101 dataset. Food 101 dataset contains a number of different subsets of the full food-101 data. For this reason, the data includes massively downscaled versions of the images to enable quick tests. The data has been reformatted as HDF5 and specifically Keras HDF5 Matrix which allows them to be easily read in. The file names indicate the contents of the file. There are 101 categories represented, with 1000 images, and most have a resolution of around 512x512x3 (RGB, uint8).
 I have used 15 categories of Food-101 in my project. They are Apple Pie, Club Sandwich, Grilled Cheese Sandwich, Tacos, Hamburger, Samosa, French Fries, Pizza, Ravioli, Cupcakes, Spring Rolls, donuts, waffles, sushi, and nachos. All images are downscaled to 224x224x3. The reason of choosing Food-101 is that it contains 101 categories with 1000 images of each category, and all are of same resolution. So, there are almost 1 lac pics which we can use for training and testing. I’ve used 15 categories which roughly consist of 15000 images and for each category I’ve used 750 for training and rest 250 for testing. I picked these categories because of their often presence in our daily diet. There is no other logic of choosing only those, there can be some other categories too.
+Dataset link: https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/
 
 Food101 dataset sample: 
 
