@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/ -->
+<html class="no-js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>Food-101 -- Mining Discriminative Components with Random Forests</title>
+        <link rel="stylesheet" href="./Dataset_link_files/bootstrap.min.css">
+        <style>
+            body {
+		        padding-top: 20px;
+		        padding-bottom: 40px;
+		      }
+		      hr {
+		           border: 1px solid #999999;
+		      }
+		      .container {
+		        margin: 0 auto;
+		        max-width: 700px;
+		      }
+		      img {margin:.7em 0 .7em 0;}
+        </style>
+    </head>
+    <body>
+      <div class="container">
+      <div class="masthead">
+        <h1>Food-101 – Mining Discriminative Components with Random Forests</h1>
+        <p><a href="http://www.vision.ee.ethz.ch/~lbossard/">Lukas Bossard</a>, 
+           <a href="http://www.vision.ee.ethz.ch/~mguillau/">Matthieu Guillaumin</a>, 
+           <a href="http://www.vision.ee.ethz.ch/">Luc Van Gool</a>
+        </p>
+      </div> 
+      <hr>
+      
+      <div class="row"><div class="col-md-12"><img src="./Dataset_link_files/rf-comp-mining.png" class="img-rounded img-responsive"></div></div>
+      <div class="row">
+        <div class="col-xs-12">
+            <p class="text-justify">
+           In this paper we address the problem of automatically recognizing pictured dishes. 
+           To this end, we introduce a novel method to mine discriminative parts using Random Forests (RF), which allows us to mine for parts simultaneously for all classes and to share knowledge  among them. 
+           To improve efficiency of mining and classification, we only consider patches that are aligned with image superpixels, which we call components.
+            </p>
+            <a class="btn btn-default" href="https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/static/bossard_eccv14_food-101.pdf"><span class="glyphicon glyphicon-file"></span> PDF</a>
+	    </div>
+    </div><!-- row -->
+
+    <h2>The Food-101 Data Set</h2>
+    <div class="row">
+        <div class="col-md-12"><img src="./Dataset_link_files/food-101.jpg" class="img-rounded img-responsive"></div>
+        <div class="col-md-12">
+            <p class="text-justify">
+            We introduce a challenging data set of 101 food categories, with 101'000 images.
+            For each class, 250 manually reviewed test images are provided as well as 750 training images.
+            On purpose, the training images were not cleaned, and thus still contain some amount of noise. 
+            This comes mostly in the form of intense colors and sometimes wrong labels.
+            All images were rescaled to have a maximum side length of 512 pixels.
+            </p>
+            <div>
+            <a id="download_button" class="btn btn-default" href="http://data.vision.ee.ethz.ch/cvl/food-101.tar.gz"><span class="glyphicon glyphicon-download-alt"></span> Download (5 GB)</a>
+            </div>
+	    </div>
+    </div><!-- row -->
+
+    <h2>Cite</h2>
+    <pre>@inproceedings{bossard14,
+  title = {Food-101 -- Mining Discriminative Components with Random Forests},
+  author = {Bossard, Lukas and Guillaumin, Matthieu and Van Gool, Luc},
+  booktitle = {European Conference on Computer Vision},
+  year = {2014}
+}</pre>
+        </div> <!-- /container -->
+    
+
+
+</body></html>
